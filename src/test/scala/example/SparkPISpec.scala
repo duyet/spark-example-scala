@@ -3,7 +3,7 @@ package example
 import org.apache.spark.sql.SparkSession
 import org.scalatest._
 
-class SparkPISpec extends FlatSpec with Matchers {
+class SparkPISpec extends flatspec.AnyFlatSpec with matchers.should.Matchers with BeforeAndAfter {
   val sparkSession: SparkSession = SparkSession.builder()
     .master("local[2]")
     .appName("Spark Pi Unit Test")
