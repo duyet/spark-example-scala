@@ -1,6 +1,6 @@
 # Table of Contents
 - [Prerequisites](#prerequisites)
-- [Building Spark Apps](#building-spark-apps)
+- [Building Spark Apps](#build-spark-apps)
 - [Example 1: Spark Scala](#example-1-spark-scala)
 - [Example 2: Spark Scala Calling Rust Binary](#example-2-spark-scala-calling-rust-binary)
 
@@ -28,6 +28,9 @@ Make sure you have installed all of the following prerequisites on your developm
   ```
 
 ![](./.github/screenshots/download.png)
+
+`spark-submit` should available at `~/Downloads/spark-3.3.2-bin-hadoop3/bin/spark-submit`.
+
 
 # Build Spark Apps
 
